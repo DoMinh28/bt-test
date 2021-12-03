@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  background-color: #333;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__content {
+    width: 60%;
+    p {
+      font-size: 25px;
+      color: #fff;
+    }
+    input {
+      width: 100%;
+      height: 40px;
+      border-radius: 4px;
+    }
+
+    &__ketqua {
+      display: none;
+      height: 40px;
+      width: 100%;
+      background-color: #fff;
+      border-radius: 4px;
+    }
+    button {
+      // width: 100%;
+      cursor: pointer;
+      background-color: pink;
+      border: hidden;
+      border-radius: 4px;
+      padding: 10px 100px;
+    }
+
+    & > * {
+      margin-bottom: 20px;
+    }
+  }
+}
+#p1 {
+  display: none;
+  font-size: 18px;
+  color: #fff;
+}
+#p2 {
+  display: none;
+  font-size: 18px;
+  color: #fff;
+}
