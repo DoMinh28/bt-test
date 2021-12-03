@@ -16,8 +16,7 @@
         ketQua.style.padding = "8px"
         var p1 = document.getElementById("p1")
         var p2 = document.getElementById("p2")
-    console.log(thuNhap);
-        if((thuNhap === "" || soTien === "" || laiSuat === "" || thoiHan === "") || (thuNhap < 0 || soTien < 0 || laiSuat < 0 || thoiHan < 0)){
+        if((thuNhap == "" || soTien == "" || laiSuat == "" || thoiHan == "") || (thuNhap < 0 || soTien < 0 || laiSuat < 0 || thoiHan < 0)){
             alert("nhập đúng giữ liệu")
            }else{
                p1.style.display = "block"
